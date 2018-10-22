@@ -17,3 +17,25 @@ a {
     width: 30px;
     margin: 15px;
 }
+.header{
+    display:flex;
+    justify-content:center;
+    
+}
+.navbar{
+    display:block;
+    margin-left:0px;
+    padding-left:0px;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+}
+#wow{
+    display:flex;
+}
+#real{
+    display:flex;
+    justify-content:space-between;
+}
+
