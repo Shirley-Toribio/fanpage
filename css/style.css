@@ -2,10 +2,6 @@ html {
     height: 100%;
 }
 
-body {
-    height: 100%;
-    
-}
 a {
     text-decoration: none;
 }
@@ -26,6 +22,8 @@ a {
     display:block;
     margin-left:0px;
     padding-left:0px;
+    display:flex;
+    justify-content:space-around;
 }
 .footer{
     display:flex;
@@ -38,4 +36,31 @@ a {
     display:flex;
     justify-content:space-between;
 }
+.thumbnail-image{
+    height:100%;
+    width:75%;
+}
+.gallrow{
+    height:50%;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.thumbnail{
+    display:flex;
+    justify-content:center;
+    width:40%;
+}
+.one{
 
+}
+
+.two{
+    
+}
+.gallery{
+    height:75%;
+}
+.about{
+    background-image:url("https://media.giphy.com/media/13PQd8jkcU5ABy/giphy.gif");
+}
