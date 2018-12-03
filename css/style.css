@@ -1,40 +1,94 @@
 html {
     height: 100%;
 }
-
+body{
+    background-image:url("https://i.pinimg.com/originals/cc/68/90/cc6890557d4811c54570ecce05975932.gif");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.header{
+    color:white;
+    font-size:72px;
+    font-weight:bold;
+}
 a {
     text-decoration: none;
 }
 
 .main {
     height: 100%;
+    color:pink;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    margin:40px;
+    font-family: 'Dancing Script', cursive;
 }
 .social-image{
     width: 30px;
     margin: 15px;
 }
+.bar{
+    color:purple;
+    font-size:24px;
+    font-family: 'Great Vibes', cursive;
+    font-weight:bold;
+    padding:10px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO-cLavaA6pHz926h-y_ojLDUrjPsnX1IfPRYw0MEqiX4_jDWy");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    border-radius:50%;
+}
 .header{
     display:flex;
     justify-content:center;
+    font-family: 'Dancing Script', cursive;
     
 }
 .navbar{
-    display:block;
+    padding:5px;
+    border-radius:50%;
     margin-left:0px;
-    padding-left:0px;
+    margin-bottom:30px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.row{
     display:flex;
     justify-content:space-around;
+    margin-top:10px;
+    margin-bottom:10px;
+}.oh{
+    height:200px;
+    width:300px;
+    border-radius:30%;
+    border:1px solid purple;
+}
+.tw{
+    height:200px;
+    width:300px;
+    border-radius:30%;
+    border:10px solid white;
+}
+.thr{
+    height:200px;
+    width:300px;
+    border-radius:30%;
+    border:1px solid purple;
 }
 .footer{
     display:flex;
     justify-content:space-between;
 }
 #wow{
-    display:flex;
+    display:block;
 }
 #real{
-    display:flex;
+    display:block;
     justify-content:space-between;
+    height:70%;
 }
 .thumbnail-image{
     height:100%;
@@ -51,16 +105,87 @@ a {
     justify-content:center;
     width:40%;
 }
-.one{
 
+.buttons{
+    text-align:center;
+    margin:30px;
+}
+.initial{
+    background-image:url("http://www.4usky.com/data/out/40/164343895-green-blue-wallpapers.jpeg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    border-radius:50%;
+}
+ #o{
+    color:red;
+    background-color:white;
+    border: 5px dotted black;
+}
+#t{
+    color:blue;
+    background-color:pink;
+    border:5px solid brown;
+}
+#th{
+    color:green;
+    background-color:yellow;
+    border:5px double purple;
 }
 
-.two{
-    
-}
 .gallery{
     height:75%;
 }
 .about{
-    background-image:url("https://media.giphy.com/media/13PQd8jkcU5ABy/giphy.gif");
+    background-image:url("https://i.gifer.com/5cU5.gif");
+}
+#two{
+    display:none;
+}
+#three{
+    display:none;
+}
+.aboutMain{
+    display:flex;
+    height:50%;
+}
+.rightPane{
+    width:25%;
+    margin-top:3.75%;
+    margin-bottom:3.75%;
+    margin-right:3.75%;
+    margin-left:-3;
+}
+.leftPane{
+    margin:3.75%;
+    width:60%;
+    font-size:20px;
+    color:#FF69B4;
+    font-weight:bolder;
+}
+#weaponry{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+#gorls{
+    display:flex;
+    justify-content:space-around;
+   /* width:100%; */
+}
+.contain{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    height:40%;
+}
+.img{
+    height:300px;
+    border-radius:30%;
+}
+#queens{
+    font-size:100px;
+    color:yellow;
+    border-radius:20%;
+    font-family: 'Kumar One Outline', cursive;
 }
